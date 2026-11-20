@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Imprint &amp; Privacy – Hendrik Molter</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="content legal">
+
+  <p class="back"><a href="index.html">← Back to homepage</a></p>
+
+  <section id="imprint">
+    <h2>Imprint</h2>
+    <h3>Responsible for this website</h3>
+    <p>
+      Hendrik Molter
+    </p>
+
+    <h3>Contact</h3>
+    <p>
+      Email: <a id="email-legal" href="#" data-u="hendrik.molter" data-d="hpi.de">hendrik.molter (at) hpi.de</a>
+    </p>
+
+    <h3>Nature of this website</h3>
+    <p>
+      This is a private, non-commercial personal website presenting my academic work. It is not an official website of the
+      Hasso Plattner Institute or any other institution, and the views expressed here are my own.
+    </p>
+
+    <h3>Links to other websites</h3>
+    <p>
+      This website contains links to external websites (for example publishers, arXiv, DBLP).
+      I have no influence on their content, and the respective providers are responsible for it.
+      If I become aware of unlawful content on a linked page, I will remove the link.
+    </p>
+  </section>
+
+  <section id="privacy">
+    <h2>Privacy Policy</h2>
+
+    <h3>Controller</h3>
+    <p>Hendrik Molter (contact: see above).</p>
+
+    <h3>Hosting</h3>
+    <p>
+      This website is hosted on GitHub Pages by GitHub, Inc., USA. When you visit it, GitHub logs your
+      IP address for security purposes. Legal basis: Art. 6(1)(f) GDPR; the legitimate interest is the
+      secure delivery of the website. GitHub determines how long these logs are kept. GitHub is certified
+      under the EU-U.S. Data Privacy Framework, so the transfer to the USA is based on the European
+      Commission's adequacy decision. Details:
+      <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub General Privacy Statement</a>.
+      Without this data the website cannot be delivered.
+    </p>
+
+    <h3>Email</h3>
+    <p>
+      If you email me, I use your message and contact details only to reply (Art. 6(1)(f) GDPR) and delete
+      them once they are no longer needed. Contacting me is voluntary.
+    </p>
+
+    <h3>Your rights</h3>
+    <p>
+      You have the right to access, rectification, erasure, restriction of processing, data portability,
+      and to object to processing (Art. 15–18, 20, 21 GDPR), as well as the right to lodge a complaint
+      with a data protection supervisory authority (Art. 77 GDPR).
+    </p>
+
+    <p class="muted small">Last updated: November 2026</p>
+  </section>
+
+</main>
+<script>
+  (function () {
+    const a = document.getElementById("email-legal");
+    const addr = a.dataset.u + "@" + a.dataset.d;
+    a.href = "mailto:" + addr; a.textContent = addr;
+  })();
+</script>
+</body>
+</html>
