@@ -79,7 +79,7 @@ const Bib = (function () {
     ({ type, year, authors, title, venue, link, arxiv, award }));
 
   const count = t => pubs.filter(p => p.type === t).length;
-  stats.textContent = `${count("j")} journal · ${count("c")} conference papers`;
+  stats.textContent = `${count("j")} journal papers · ${count("c")} conference papers`;
 
   const esc = s => s.replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
